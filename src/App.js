@@ -8,7 +8,12 @@ import About from './components/home/About'
 import ImageWrapper from './components/globals/Image Section/ImageWrapper'
 import imgData from './image/barbar.jpg';
 import barbar2 from './image/barbar2.jpg';
+import contacts from './image/contacts.jpg';
 import Dropdown from './components/globals/Navbar/Dropdown/Dropdown';
+import ImgWrapper from './components/home/ImgWrapper';
+import Mastars from './components/home/Mastars';
+import Slider from './components/home/Slider/Slider';
+import Footer from './components/globals/Footer/Footer';
 
 
 function App() {
@@ -17,7 +22,7 @@ function App() {
 
   const toggle = () => {
     setIsOpen(!isOpen)
-    
+
   }
   return <>
     <GlobalStyles />
@@ -45,8 +50,24 @@ function App() {
     <section id="services">
       <Services />
     </section>
-
-
+    <section>
+      <ImgWrapper />
+    </section>
+    <section id="mastars">
+      <Mastars />
+    </section>
+    <section>
+      <Slider />
+    </section>
+    <section>
+      <ImageWrapper img={contacts}
+        title="Запази своя час сега!"
+        subTitle="0876117890"
+      />
+    </section>
+    <section>
+      <Footer />
+    </section>
 
   </>
 }

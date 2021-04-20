@@ -78,7 +78,7 @@ const Dropdown = ({ isOpen, toggle }) => {
         <DropdownWrapper>
             <DropdownMenu>
                 {menuData.map((item) => {
-                    return <a href={item.link}>{item.title}</a>
+                    return <a href={item.link} key={item.id}>{item.title}</a>
                 })}
             </DropdownMenu>
 

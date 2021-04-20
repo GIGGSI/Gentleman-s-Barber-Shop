@@ -17,6 +17,10 @@ export const menuData = [
         link: '#services',
         showMenu: false,
     },
-
+    {
+        id: 4,
+        title: 'Mastars',
+        link: '#mastars'
+    }
 
 ]

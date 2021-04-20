@@ -8,7 +8,7 @@ ${props => setBackground({ img: props.img, color: "rgba(0,0,0,0.2)" })}
 
 ${setFlex({})}
 
-width:100%;
+
 
 `
 
