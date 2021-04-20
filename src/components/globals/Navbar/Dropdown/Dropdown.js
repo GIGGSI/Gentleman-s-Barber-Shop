@@ -3,7 +3,7 @@ import { FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 import { menuData } from '../../../data/menuData'
-import { setColor } from '../../../../styles';
+import { setColor, media } from '../../../../styles';
 
 const DropdownContainer = styled.div`
 position:fixed;
@@ -45,17 +45,25 @@ display:grid;
 grid-template-columns:1fr;
 grid-template-rows:repeat(14,40px);
 text-align:center;
+padding-top:10rem;
 
+text-transform:uppercase;
+    font-size:2rem;
 a {
     text-decoration:none;
     color:${setColor.mainWhite}
 }
 
+${media.tablet`
+display:flex;
+justify-content:center;
+align-items:center;
 
+
+`}
 @media screen and (max-width:480px) {
-    grid-template-rows:repeat(7,45px);
-    text-transform:uppercase;
-    font-size:2rem;
+    /* grid-template-rows:repeat(7,45px); */
+    
 
 }
 `
