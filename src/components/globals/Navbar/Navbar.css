@@ -1,0 +1,13 @@
+nav {
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+  }
+  .active {
+    background: #cd853f;
+  }
+  
