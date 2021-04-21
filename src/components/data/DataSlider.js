@@ -2,38 +2,38 @@ const people = [
     {
         id: 1,
         image:
-            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg',
-        name: 'maria ferguson',
-        title: 'office manager',
+            'https://images.unsplash.com/photo-1553240799-36bbf332a5c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
+        name: 'Родни Грозданоф',
+        title: 'Производител на ножове',
         quote:
-            'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+            'Бях близо до бръснарницата и реших, че е време да оформя брадата си. Занимавам се с производство на ножове и брадата ми постоянно е изложена на сурови условия - температури от 800C°, искри от пещите и шлифовъчните машини. Използвам качествени продукти от целия свят. Дойдох в барбершопа с брада, която мога да опиша само с думите "гнездо на гарван" и излязох с перфектно оформена брада като на модел.',
     },
     {
         id: 2,
         image:
-            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
-        name: 'john doe',
-        title: 'regular guy',
+            'https://images.unsplash.com/photo-1560356644-6095501229fc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80',
+        name: 'Симеон Георгиев',
+        title: '',
         quote:
-            'Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.',
+            'Наистина страхотно преживяване. За първи път бях в Gentleman s Barber Shop и бях подстриган от Иван, много е прецизен и добър в това, което прави. Говорихме си, много приятен и позитивен човек. Грижата за клиентите на това място е нещо, което не съм виждал в друг барбершоп. Толкова добре направено за мъжете и се надявам да поддържат това ниво на обслужване. Определено ще ги посетя отново следващия път, когато съм в България.',
     },
     {
         id: 3,
         image:
-            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg',
-        name: 'peter smith',
-        title: 'product designer',
+            'https://images.unsplash.com/photo-1569466896818-335b1bedfcce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+        name: 'Ивайло Христов',
+        title: 'Дизайнер',
         quote:
-            'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
+            'Най-добрата бръснарница в София! Това е мястото, където ще получите модерна или класическа прическа и специално отношение. Препоръчвам!',
     },
     {
         id: 4,
         image:
-            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
-        name: 'susan andersen',
-        title: 'the boss',
+            'https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        name: 'Mylo Röell',
+        title: 'Програмист',
         quote:
-            'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
+            'Най-сетне открих бръснарница в София, която третира нас "космати същества" като мъжете, които сме! Страхотно обслужване, чудесна атмосфера, страхотни продукти от Reuzel и Schorem, най-добрият барбершоп магазин в Холандия!',
     },
 ];
 

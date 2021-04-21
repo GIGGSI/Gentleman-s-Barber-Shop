@@ -5,7 +5,7 @@ import { imgData } from '../data/imgData'
 
 const ImgWrapper = () => {
     const [data, setData] = React.useState(imgData)
-   
+
     return <ImgSection>
         <ImgContainer>
             {data.map((item) => {

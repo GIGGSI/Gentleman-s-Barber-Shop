@@ -105,8 +105,8 @@ const Navbar = ({ toggle, className }) => {
         <NavMenu >
             <a href="#home" onClick={handleClick}>Home</a>
             <a href="#about" onClick={handleClick}>About us</a>
-            <a href="#services" onClick={handleClick}>Sections</a>
-            <a href="#mastars" onClick={handleClick}>Mastars</a>
+            <a href="#services" onClick={handleClick}>Services</a>
+            <a href="#barbers" onClick={handleClick}>Barbers</a>
         </NavMenu>
 
     </nav >

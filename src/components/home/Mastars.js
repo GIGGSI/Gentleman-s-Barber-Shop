@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import styled from 'styled-components';
 import Title from '../globals/Title'
 import Section from '../globals/Section';
-import { ServiceData } from '../data/ServiceData';
+import { BarbersData } from '../data/BarbersData';
 import { media, setColor, setShadow } from '../../styles'
 
 const Mastars = () => {
-    const [services, setSerices] = useState(ServiceData)
+    const [services, setSerices] = useState(BarbersData)
 
 
     return (
@@ -53,11 +53,13 @@ margin:2rem 0;
 .img-cintainer {
   
     background:${setColor.mainBlack};
-     
+     height:11rem;
     position:relative;
     img{
         width:100%;
-        display:block;
+        height:100%;
+        /* display:block; */
+        
         transition:0.3s ease-in-out
     }
     &:hover img {

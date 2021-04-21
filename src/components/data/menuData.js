@@ -19,8 +19,8 @@ export const menuData = [
     },
     {
         id: 4,
-        title: 'Mastars',
-        link: '#mastars'
+        title: 'Barbers',
+        link: '#barbers'
     }
 
 ]

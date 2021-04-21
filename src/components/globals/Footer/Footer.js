@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { setColor } from '../../../styles'
+import { media, setColor } from '../../../styles'
 
 const Footer = () => {
     return <Section>
@@ -15,7 +15,7 @@ const Footer = () => {
             <a href="#services">Services</a>
             </SingleDiv>
             <SingleDiv>
-                <a href="#masters">Masters</a>
+                <a href="#barbers">Barbers</a>
             </SingleDiv>
 
         </FooterContainer>
@@ -34,7 +34,12 @@ display:grid;
 text-align:center;
 justify-content:center;
 align-items:center;
+grid-template-columns:1fr 1fr;
+
+${media.tablet`
 grid-template-columns:1fr 1fr 1fr 1fr;
+
+`}
 `
 
 const SingleDiv = styled.div`

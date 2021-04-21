@@ -32,7 +32,7 @@ const Slider = () => {
     }, [index])
 
     return <section className="section-reviews">
-        <Title title="Reviews" />
+        <Title title="Отзиви от нашите клиенти" />
         <div className="section-center-reviews">
             {people.map((person, personIndex) => {
                 const { id, image, name, title, quote } = person;

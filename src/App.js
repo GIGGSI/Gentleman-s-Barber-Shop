@@ -53,7 +53,7 @@ function App() {
     <section>
       <ImgWrapper />
     </section>
-    <section id="mastars">
+    <section id="barbers">
       <Mastars />
     </section>
     <section>

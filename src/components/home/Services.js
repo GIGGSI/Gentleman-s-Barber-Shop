@@ -51,12 +51,14 @@ const SingleService = styled.article`
 background:${setColor.mainWhite};
 margin:2rem 0;
 .img-cintainer {
+   
   
     background:${setColor.mainBlack};
      
     position:relative;
     img{
         width:100%;
+        height:12rem;
         display:block;
         transition:0.3s ease-in-out
     }
