@@ -10,7 +10,8 @@ background-size: cover;
   background-position: center center;
   position: relative;
   text-align:center;
-  width:100%;
+  width:100%; 
+
 
   
   h2 {

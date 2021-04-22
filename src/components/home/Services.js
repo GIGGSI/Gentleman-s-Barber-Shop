@@ -69,7 +69,7 @@ margin:2rem 0;
 .service-info{
         padding:1rem;
     h4{
-        text-transform:capitalize;
+        text-transform:uppercase;
         letter-spacing:2px;
     }
     p{
