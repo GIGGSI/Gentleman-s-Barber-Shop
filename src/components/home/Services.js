@@ -48,11 +48,12 @@ grid-column-gap:1.5rem;
 
 `
 const SingleService = styled.article`
-background:${setColor.mainWhite};
+background:#dedfe0;
+
 margin:2rem 0;
 transition: .5s ease;
   border-radius: 0;
-  transform: perspective(0em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  transform: perspective(3em) rotateX(0deg) rotateY(-1.175deg) rotateZ(-1deg);
 
 .img-cintainer {
    
@@ -86,10 +87,11 @@ transition: .5s ease;
     ${setShadow.light};
     transition:0.3s ease-in-out;
 &:hover {
-    transform: perspective(3em) rotateX(0deg) rotateY(-1.175deg) rotateZ(-1deg);
+    transform: perspective(0em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     ${setShadow.dark};
-    background:#dedfe0;
+    background:${setColor.mainWhite};
 }
+
 `;
 
 export default Services

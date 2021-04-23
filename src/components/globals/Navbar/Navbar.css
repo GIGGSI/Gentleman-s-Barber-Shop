@@ -9,7 +9,9 @@ nav {
   margin-top: 1rem;
   transition: 0.2s;
 }
-
+.logo {
+  padding-top: 1rem;;
+}
 .active {
   background: #313131;
   margin-top: 0;
