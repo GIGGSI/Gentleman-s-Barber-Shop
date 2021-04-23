@@ -55,17 +55,21 @@ border-radius: 0 0 10px 10px;
     overflow: hidden; 
      height:11rem;
     position:relative;
+    background:black;
     
     img{
-
+       opacity:0.8;
         width:100%;
         height:100%;
         /* display:block; */
-        transition: all .2s ease-in-out; 
+        transition: all .2s ease-in-out;
+        
+       
+
     }
-    &:hover {
-        opacity:0.5;
-    }
+    /* &:hover {
+        opacity:1;
+    } */
   
     
 }
@@ -88,6 +92,7 @@ border-radius: 0 0 10px 10px;
     img{
     transform: scale(1.1);  
     transform-origin: 50% 50%;
+    opacity:1;
 
   }
     background:#CFD2D4;
