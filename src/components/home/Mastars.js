@@ -12,7 +12,7 @@ const Mastars = () => {
     return (
         <Section >
             <Title
-                title="нашите майстори"
+                title="Нашите майстори"
                 center
                 subtitel="Безпрецедентни умения за бръснарство и много таланти, вие оставяте косата си в ръцете на нашите  професионални бръснари. От подстригването на косата до горещите бръснения."
             />
@@ -48,31 +48,36 @@ grid-column-gap:1.5rem;
 
 `
 const SingleService = styled.article`
-background:${setColor.mainWhite};
+background:#edeff0;
 margin:2rem 0;
+border-radius: 0 0 10px 10px;
 .img-cintainer {
-  
-    background:${setColor.mainBlack};
+    overflow: hidden; 
      height:11rem;
     position:relative;
+    
     img{
+
         width:100%;
         height:100%;
         /* display:block; */
-        
-        transition:0.3s ease-in-out
+        transition: all .2s ease-in-out; 
     }
-    &:hover img {
-        opacity:0.5
+    &:hover {
+        opacity:0.5;
     }
+  
+    
 }
 .service-info{
         padding:1rem;
     h4{
         text-transform:capitalize;
         letter-spacing:2px;
+        transition:0.3s ease-in-out;
     }
     p{
+        color:#5d5b5b;
         letter-spacing:2px;
     }
 }
@@ -80,7 +85,17 @@ margin:2rem 0;
     ${setShadow.light};
     transition:0.3s ease-in-out;
 &:hover {
-    ${setShadow.dark}
+    img{
+    transform: scale(1.1);  
+    transform-origin: 50% 50%;
+
+  }
+    background:#CFD2D4;
+    ${setShadow.dark};
+    h4{
+        transform: scale(1.1);  
+
+    }
 }
 `;
 

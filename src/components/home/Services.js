@@ -50,6 +50,10 @@ grid-column-gap:1.5rem;
 const SingleService = styled.article`
 background:${setColor.mainWhite};
 margin:2rem 0;
+transition: .5s ease;
+  border-radius: 0;
+  transform: perspective(0em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+
 .img-cintainer {
    
   
@@ -69,10 +73,12 @@ margin:2rem 0;
 .service-info{
         padding:1rem;
     h4{
-        text-transform:uppercase;
+        /* text-transform:uppercase; */
         letter-spacing:2px;
     }
     p{
+        color:#5d5b5b;
+
         letter-spacing:2px;
     }
 }
@@ -80,7 +86,9 @@ margin:2rem 0;
     ${setShadow.light};
     transition:0.3s ease-in-out;
 &:hover {
-    ${setShadow.dark}
+    transform: perspective(3em) rotateX(0deg) rotateY(-1.175deg) rotateZ(-1deg);
+    ${setShadow.dark};
+    background:#dedfe0;
 }
 `;
 

@@ -6,16 +6,16 @@ const Footer = () => {
     return <Section>
         <FooterContainer>
             <SingleDiv>
-            <a href="#home">Home</a>
+                <a href="#home">Начало</a>
             </SingleDiv>
             <SingleDiv>
-            <a href="#about">About us</a>
+                <a href="#about">За нас</a>
             </SingleDiv>
             <SingleDiv>
-            <a href="#services">Services</a>
+                <a href="#services">Услуги</a>
             </SingleDiv>
             <SingleDiv>
-                <a href="#barbers">Barbers</a>
+                <a href="#barbers">Майстори</a>
             </SingleDiv>
 
         </FooterContainer>
@@ -26,7 +26,7 @@ const Section = styled.div`
 width:100%;
 height:100%;
 padding:1rem 2rem;
-background:#222;
+background: #313131;
 `
 const FooterContainer = styled.div`
 height:10rem;
@@ -47,8 +47,9 @@ const SingleDiv = styled.div`
 a{
     text-decoration:none;
     color:#fff;
-    font-size:1.6rem;
+    font-size:1.3rem;
     transform: translateY(200px);
+    text-transform:uppercase;
 
 }
 a:hover{

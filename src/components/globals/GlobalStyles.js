@@ -5,6 +5,9 @@ import { setColor, setFont } from '../../styles'
 const Globals = createGlobalStyle`
 
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Rubik:wght@300;500;700&display=swap');
+
+
 
 *{
     margin:0;
@@ -57,7 +60,9 @@ p{
     margin:0 0 1.5rem 0;
 
 }
-
+img {
+    z-index: 100;
+}
 `
 
 export default Globals

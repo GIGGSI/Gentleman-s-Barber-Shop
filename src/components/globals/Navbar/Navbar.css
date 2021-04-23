@@ -1,13 +1,26 @@
 nav {
-    height: 95px;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    z-index: 100;
-    position: fixed;
-    width: 100%;
-  }
-  .active {
-    background: #cd853f;
-  }
-  
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  margin-top: 1rem;
+  transition: 0.2s;
+}
+
+.active {
+  background: #313131;
+  margin-top: 0;
+}
+nav.logo {
+  transition: 0.2s;
+}
+
+.logo-active {
+  padding-top: 1rem;
+  -ms-transform: scale(0.8, 0.8); /* IE 9 */
+  -webkit-transform: scale(0.8, 0.8); /* Safari */
+  transform: scale(0.7, 0.7);
+}

@@ -45,15 +45,16 @@ transform:translate(-50%,25%)
 `;
 
 const NavMenu = styled.div`
-display:flex;
-align-items:center;
+/* display:flex;
+align-items:center; */
 
-a {
-    list-style:none;
-    text-decoration:none;
-    color:white;
-    margin-right:1rem;
-}
+    a {
+        list-style:none;
+        text-decoration:none;
+        text-transform:uppercase;
+        color:white;
+        margin-right:1rem;
+    }
 @media screen and (max-width:768px) {
     display:none;
 }
@@ -96,17 +97,21 @@ const Navbar = ({ toggle, className }) => {
     }
     window.addEventListener('scroll', changeBackground)
 
-    return <nav className={navbar ? 'active' : 'null'}>
-        <Logo>
-            <a href="#home" ><img src={logo} alt="logo" />  </a>
+    return <nav className={navbar ? 'active' : null}>
+        <Logo >
+            <a href="#home"
+            >
+                <img src={logo} alt="logo"
+                    className={navbar ? 'logo logo-active' : 'logo'}
+                />  </a>
         </Logo>
 
         <MenuBars onClick={toggle} />
         <NavMenu >
-            <a href="#home" onClick={handleClick}>Home</a>
-            <a href="#about" onClick={handleClick}>About us</a>
-            <a href="#services" onClick={handleClick}>Services</a>
-            <a href="#barbers" onClick={handleClick}>Barbers</a>
+            <a href="#home" onClick={handleClick}>Начало</a>
+            <a href="#about" onClick={handleClick}>За Нас</a>
+            <a href="#services" onClick={handleClick}>Услуги</a>
+            <a href="#barbers" onClick={handleClick}>Майстори</a>
         </NavMenu>
 
     </nav >

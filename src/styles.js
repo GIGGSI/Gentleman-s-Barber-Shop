@@ -14,8 +14,8 @@ export const setColor = {
 }
 
 export const setFont = {
-    main: "font-family: 'Montserrat', sans-serif",
-    slanted: "font-family: 'Arimo'"
+    main: "font-family: 'Rubik', sans-serif",
+    slanted: "font-family: 'Playfair Display'"
 }
 
 export const setFlex = ({ x = 'center', y = 'center' } = {}) => {
