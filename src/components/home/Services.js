@@ -61,15 +61,13 @@ transition: .5s ease;
     background:${setColor.mainBlack};
      
     position:relative;
-    img{
+    img{opacity:0.8;
         width:100%;
         height:12rem;
         display:block;
         transition:0.3s ease-in-out
     }
-    &:hover img {
-        opacity:0.5
-    }
+    
 }
 .service-info{
         padding:1rem;
@@ -90,6 +88,9 @@ transition: .5s ease;
     transform: perspective(0em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     ${setShadow.dark};
     background:${setColor.mainWhite};
+    img {
+        opacity:1;
+    }
 }
 
 `;
