@@ -14,6 +14,7 @@ import ImgWrapper from './components/home/ImgWrapper';
 import Mastars from './components/home/Mastars';
 import Slider from './components/home/Slider/Slider';
 import Footer from './components/globals/Footer/Footer';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 
 function App() {
